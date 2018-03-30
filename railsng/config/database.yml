@@ -1,0 +1,28 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  username: postgres
+  password: postgres
+  host: localhost
+  port: 5432
+development:
+  <<: *default
+  database: railsng_development
+
+  #schema_search_path: myapp,sharedapp,public
+
+  # Minimum log levels, in increasing order:
+  #   debug5, debug4, debug3, debug2, debug1,
+  #   log, notice, warning, error, fatal, and panic
+  # Defaults to warning.
+  #min_messages: notice
+
+test:
+  <<: *default
+  database: railsng_test
+
+production:
+  <<: *default
+  database: railsng_production
+  password: <%= ENV['RAILSNG_DATABASE_PASSWORD'] %>
