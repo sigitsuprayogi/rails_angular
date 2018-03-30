@@ -10,11 +10,11 @@ How to run Rails
 - rails s
 
 How to run Angular
-- copy folder railsng_frontend to root (linux : var/www/yourproject | windows : xampp/htdoc/yourproject)
+- copy folder railsng_frontend to root (linux : var/www/yourproject)
 - open your browser and open project address (http://localhost/yourproject)
 
 easy right?
 
 sigitsuprayogi@ymail.com or whatsapp : +6285275010148 
-if you have job for me.
+- if you have job for me.
 
