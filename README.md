@@ -15,3 +15,6 @@ How to run Angular
 
 easy right?
 
+sigitsuprayogi@ymail.com or whatsapp : +6285275010148 
+if you have job for me.
+
